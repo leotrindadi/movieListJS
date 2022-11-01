@@ -1,0 +1,51 @@
+body{
+ background-image: url(imgs/teste.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+body h1{
+    text-align: center;
+}
+
+#movielist{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 500px;
+    width: 1025px;
+    margin: auto;
+    background-color: white;
+}
+
+#controls{
+    display: flex;
+}
+
+#movielist #reset{
+    align-self:baseline;
+}
+
+#list {
+    list-style: none;
+}
+
+label{
+    margin: 15px;
+}
+
+button{
+    margin: 15px;
+}
+
+.badMovie{
+    background-color: rgba(255, 0, 0, 0.486);
+}
+
+.goodMovie{
+    background-color: rgba(0, 128, 0, 0.411);
+}
+
+.hide{
+    display: none;
+}
